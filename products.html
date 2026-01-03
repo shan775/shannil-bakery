@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Products</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+  <h1>Our Products</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+<main>
+  <div class="products">
+    <div class="product">
+      <h3>Chocolate Cake</h3>
+      <p>KES 1,200</p>
+      <button onclick="addToCart()">Add to Cart</button>
+    </div>
+    <div class="product">
+      <h3>Fresh Bread</h3>
+      <p>KES 150</p>
+      <button onclick="addToCart()">Add to Cart</button>
+    </div>
+    <div class="product">
+      <h3>Cookies</h3>
+      <p>KES 300</p>
+      <button onclick="addToCart()">Add to Cart</button>
+    </div>
+  </div>
+  <p>Cart Items: <span id="cartCount">0</span></p>
+</main>
+<script src="js/script.js"></script>
+</body>
+</html>
